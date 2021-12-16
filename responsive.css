@@ -1,0 +1,121 @@
+@media screen and (max-width: 400px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+    }
+    #logo{
+        width: 25vw;
+    }
+    #search{
+        width: 50vw;
+    }
+    .icon{
+        width: 8vw;
+    }
+
+    #section{
+        display: flex;
+        flex-direction: column;
+    }
+    .full-forecast{
+        height: 38vh;
+        width: 80%;
+    }
+    .forcst{
+        height: 29vh;
+    }
+
+    .day8forecast{
+        display: grid;
+        grid-template-columns: 100vw;
+    }
+    .card{
+        /* height: 28vh; */
+        width: 80vw;
+        margin: 1vw 8vw;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+    }
+    #logo{
+        width: 25vw;
+    }
+    #search{
+        width: 50vw;
+    }
+    .icon{
+        width: 8vw;
+    }
+
+    #section{
+        display: flex;
+        flex-direction: column;
+    }
+    .full-forecast{
+        height: 37vh;
+        width: 60%;
+    }
+    .forcst{
+        height: 28vh;
+    }
+
+    .day8forecast{
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+    }
+    .card{
+        width: 48vw;
+        margin: 1vw;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    #navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #logo{
+        width: 25vw;
+    }
+    #search{
+        width: 30vw;
+    }
+    #last{
+        width: 25vw;
+    }
+    .icon{
+        width: 8vw;
+    }
+
+    #section{
+        display: flex;
+        flex-direction: row;
+    }
+    .full-forecast{
+        height: 37vh;
+        width: 30%;
+    }
+    .forcst{
+        height: 28vh;
+    }
+
+    .day8forecast{
+        display: grid;
+        grid-template-rows: 30vh 30vh;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
+        grid-row-gap: 5vh;
+    }
+    .card{
+        width: 23vw;
+        margin-top: 1rem;
+    }
+}

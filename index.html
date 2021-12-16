@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Weather Info</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="logo" height="35rem" width="35rem">
+            <a href="index.html">GetWeather</a>
+        </div>
+        <div id="mid">
+            <input id="search" type="text" placeholder="Weather in your area">
+            <i class="fas fa-search icon"></i>
+        </div>
+        <div id="last"></div>
+    </nav>
+
+    <section id="section">
+        <div id="weather">
+            <div id="time"><span id="ampm"></span></div>
+            <h4 id="date"></h4>
+            <div id="loc">Location</div>
+            <div id="temp"></div>
+            <div id="min_max"></div>
+            <div id="seeforecast">
+                See Full Forecast
+                <i class="fas fa-arrow-circle-right" id="right-arrow"></i>
+            </div>
+        </div>
+
+        <div class="full-forecast">
+            <p class="details">Clouds <span id="rain"></span></p>
+            <p class="details">Feels like<span id="feels"></span></p>
+            <p class="details">Humidity <span id="humidity"></span></p>
+            <p class="details">Pressure <span id="press"></span></p>
+            <p class="details">Dew Point<span id="dew"></span></p>
+            <p class="details" id="suninfo1">Sunrise <span id="sunrise"></span></p>
+            <p class="details" id="suninfo2">Sunset <span id="sunset"></span></p>
+        </div>
+
+    </section>
+
+
+
+
+    <footer class="day8forecast">
+        <div class="card" id="card2"></div>
+        <div class="card" id="card3"></div>
+        <div class="card" id="card4"></div>
+        <div class="card" id="card5"></div>
+        <div class="card" id="card6"></div>
+        <div class="card" id="card7"></div>
+        <div class="card" id="card8"></div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
